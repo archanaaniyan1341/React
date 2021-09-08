@@ -1,0 +1,60 @@
+{
+  "name": "dynamic-components-from-json-with-react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "ag-grid-community": "^24.1.0",
+    "ag-grid-react": "^24.1.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "env-cmd": "^10.1.0",
+    "html-to-react": "^1.4.5",
+    "moment": "^2.29.1",
+    "moment-range": "^4.0.2",
+    "moment-timezone": "^0.5.33",
+    "node-gyp": "^7.1.2",
+    "react": "^16.8.6",
+    "react-big-calendar": "^0.33.0",
+    "react-bootstrap": "^1.0.0-beta.11",
+    "react-bootstrap-tabs": "^2.0.0",
+    "react-closeable-tabs": "^1.1.5",
+    "react-datepicker": "^3.6.0",
+    "react-dnd": "^13.1.1",
+    "react-dom": "^16.8.6",
+    "react-dynamic-import": "^1.1.4",
+    "react-grid-layout": "^1.2.0",
+    "react-grid-system": "^7.1.1",
+    "react-moment": "^1.1.1",
+    "react-paginate": "^7.1.3",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.7.1",
+    "rebuild": "^0.1.2",
+    "redux": "^4.0.5",
+    "yarn": "^1.22.10",
+    "zeebe-node": "^1.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "json-server": "0.16.3",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

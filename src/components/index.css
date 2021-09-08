@@ -1,0 +1,13 @@
+.data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFF;
+    background-color: #000;
+    padding: 2px 16px;    
+    font-weight: bold;
+}
+.dark .data-container {
+    color: white;
+}

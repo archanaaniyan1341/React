@@ -1,0 +1,46 @@
+.main-header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 50px;
+    z-index: 10000;
+}
+.user-icon {
+    color: white;
+    padding: 10px 40px;
+}
+
+.circle {
+    width: 40px!important;
+    height: 40px!important;
+    float: right;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    padding-top: 4px;
+}
+.user-icon svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    color: #2c504f;
+    font-size: 26px;
+}
+.main-header span {
+    cursor: pointer;
+}
+.logout-link {
+    padding-top: 11px;
+}
+.logout-link a, .logout-link a:hover,  .logout-link a:focus {
+    color: white;
+}
+.main-header .btn-success {
+    height: 32px;
+}
+.main-header .btn-success {
+    background-color: #139a95!important;
+}
+.main-header .btn-success:not(:disabled):not(.disabled):active, 
+.main-header .btn-success:not(:disabled):not(.disabled).active,
+.main-header .show > .btn-success.dropdown-toggle {
+    background-color: #3fdbd6!important;
+}
