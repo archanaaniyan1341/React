@@ -1,0 +1,17 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "simple messaging app",
+  "main": "app.js",
+  "scripts": {
+ "start": "nodemon app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/archanaaniyan1341/angularproject"
+  },
+  "author": "Archana",
+  "license": "ISC"
+}
+
