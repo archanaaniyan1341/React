@@ -1,0 +1,6 @@
+﻿# Added by Docker Desktop
+169.254.96.14 host.docker.internal
+169.254.96.14 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal cockpit-app
+# End of section
